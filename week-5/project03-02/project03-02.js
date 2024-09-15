@@ -29,8 +29,8 @@ let htmlCode = "";
 
 for (let i = 0; i < captions.length; i++) {
   htmlCode += "<figure>";
-  htmlCode += "<img alt='' src='slidei.jpg' />";
-  htmlCode += "<figcaption>caption[i]</figcaption>";
+  htmlCode += "<img alt='' src='slide" + i + ".jpg' />";
+  htmlCode += "<figcaption>" + captions[i] + "</figcaption>";
   htmlCode += "</figure>";
 }
 
